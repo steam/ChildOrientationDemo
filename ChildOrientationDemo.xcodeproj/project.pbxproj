@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1461FD34199FD6430050644D /* leak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1461FD33199FD6430050644D /* leak.jpg */; };
+		EE900A87199EA17A00D209A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE900A86199EA17A00D209A7 /* Foundation.framework */; };
+		EE900A89199EA17A00D209A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE900A88199EA17A00D209A7 /* CoreGraphics.framework */; };
+		EE900A8B199EA17A00D209A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE900A8A199EA17A00D209A7 /* UIKit.framework */; };
+		EE900A91199EA17A00D209A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE900A8F199EA17A00D209A7 /* InfoPlist.strings */; };
+		EE900A93199EA17A00D209A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE900A92199EA17A00D209A7 /* main.m */; };
+		EE900A97199EA17A00D209A7 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE900A96199EA17A00D209A7 /* TAAppDelegate.m */; };
+		EE900A9A199EA17A00D209A7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE900A98199EA17A00D209A7 /* Main_iPhone.storyboard */; };
+		EE900A9D199EA17A00D209A7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE900A9B199EA17A00D209A7 /* Main_iPad.storyboard */; };
+		EE900AA0199EA17A00D209A7 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE900A9F199EA17A00D209A7 /* TAViewController.m */; };
+		EE900AA2199EA17A00D209A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE900AA1199EA17A00D209A7 /* Images.xcassets */; };
+		EE900AA9199EA17A00D209A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE900AA8199EA17A00D209A7 /* XCTest.framework */; };
+		EE900AAA199EA17A00D209A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE900A86199EA17A00D209A7 /* Foundation.framework */; };
+		EE900AAB199EA17A00D209A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE900A8A199EA17A00D209A7 /* UIKit.framework */; };
+		EE900AB3199EA17A00D209A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE900AB1199EA17A00D209A7 /* InfoPlist.strings */; };
+		EE900AB5199EA17A00D209A7 /* ChildOrientationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE900AB4199EA17A00D209A7 /* ChildOrientationDemoTests.m */; };
+		EE900AC0199EA1D800D209A7 /* TAPortraitOnlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE900ABF199EA1D800D209A7 /* TAPortraitOnlyViewController.m */; };
+		EE900AC3199EA7E700D209A7 /* TALandscapeOnlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE900AC2199EA7E700D209A7 /* TALandscapeOnlyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE900AAC199EA17A00D209A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE900A7B199EA17A00D209A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE900A82199EA17A00D209A7;
+			remoteInfo = ChildOrientationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1461FD33199FD6430050644D /* leak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leak.jpg; sourceTree = "<group>"; };
+		EE900A83199EA17A00D209A7 /* ChildOrientationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildOrientationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE900A86199EA17A00D209A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE900A88199EA17A00D209A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE900A8A199EA17A00D209A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE900A8E199EA17A00D209A7 /* ChildOrientationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChildOrientationDemo-Info.plist"; sourceTree = "<group>"; };
+		EE900A90199EA17A00D209A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE900A92199EA17A00D209A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE900A94199EA17A00D209A7 /* ChildOrientationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChildOrientationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		EE900A95199EA17A00D209A7 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		EE900A96199EA17A00D209A7 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		EE900A99199EA17A00D209A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EE900A9C199EA17A00D209A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EE900A9E199EA17A00D209A7 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
+		EE900A9F199EA17A00D209A7 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		EE900AA1199EA17A00D209A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE900AA7199EA17A00D209A7 /* ChildOrientationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildOrientationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE900AA8199EA17A00D209A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE900AB0199EA17A00D209A7 /* ChildOrientationDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChildOrientationDemoTests-Info.plist"; sourceTree = "<group>"; };
+		EE900AB2199EA17A00D209A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE900AB4199EA17A00D209A7 /* ChildOrientationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildOrientationDemoTests.m; sourceTree = "<group>"; };
+		EE900ABE199EA1D800D209A7 /* TAPortraitOnlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPortraitOnlyViewController.h; sourceTree = "<group>"; };
+		EE900ABF199EA1D800D209A7 /* TAPortraitOnlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPortraitOnlyViewController.m; sourceTree = "<group>"; };
+		EE900AC1199EA7E700D209A7 /* TALandscapeOnlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALandscapeOnlyViewController.h; sourceTree = "<group>"; };
+		EE900AC2199EA7E700D209A7 /* TALandscapeOnlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALandscapeOnlyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE900A80199EA17A00D209A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE900A89199EA17A00D209A7 /* CoreGraphics.framework in Frameworks */,
+				EE900A8B199EA17A00D209A7 /* UIKit.framework in Frameworks */,
+				EE900A87199EA17A00D209A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE900AA4199EA17A00D209A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE900AA9199EA17A00D209A7 /* XCTest.framework in Frameworks */,
+				EE900AAB199EA17A00D209A7 /* UIKit.framework in Frameworks */,
+				EE900AAA199EA17A00D209A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE900A7A199EA17A00D209A7 = {
+			isa = PBXGroup;
+			children = (
+				EE900A8C199EA17A00D209A7 /* ChildOrientationDemo */,
+				EE900AAE199EA17A00D209A7 /* ChildOrientationDemoTests */,
+				EE900A85199EA17A00D209A7 /* Frameworks */,
+				EE900A84199EA17A00D209A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE900A84199EA17A00D209A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE900A83199EA17A00D209A7 /* ChildOrientationDemo.app */,
+				EE900AA7199EA17A00D209A7 /* ChildOrientationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE900A85199EA17A00D209A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE900A86199EA17A00D209A7 /* Foundation.framework */,
+				EE900A88199EA17A00D209A7 /* CoreGraphics.framework */,
+				EE900A8A199EA17A00D209A7 /* UIKit.framework */,
+				EE900AA8199EA17A00D209A7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE900A8C199EA17A00D209A7 /* ChildOrientationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1461FD33199FD6430050644D /* leak.jpg */,
+				EE900A95199EA17A00D209A7 /* TAAppDelegate.h */,
+				EE900A96199EA17A00D209A7 /* TAAppDelegate.m */,
+				EE900A98199EA17A00D209A7 /* Main_iPhone.storyboard */,
+				EE900A9B199EA17A00D209A7 /* Main_iPad.storyboard */,
+				EE900A9E199EA17A00D209A7 /* TAViewController.h */,
+				EE900A9F199EA17A00D209A7 /* TAViewController.m */,
+				EE900AA1199EA17A00D209A7 /* Images.xcassets */,
+				EE900A8D199EA17A00D209A7 /* Supporting Files */,
+				EE900ABE199EA1D800D209A7 /* TAPortraitOnlyViewController.h */,
+				EE900ABF199EA1D800D209A7 /* TAPortraitOnlyViewController.m */,
+				EE900AC1199EA7E700D209A7 /* TALandscapeOnlyViewController.h */,
+				EE900AC2199EA7E700D209A7 /* TALandscapeOnlyViewController.m */,
+			);
+			path = ChildOrientationDemo;
+			sourceTree = "<group>";
+		};
+		EE900A8D199EA17A00D209A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE900A8E199EA17A00D209A7 /* ChildOrientationDemo-Info.plist */,
+				EE900A8F199EA17A00D209A7 /* InfoPlist.strings */,
+				EE900A92199EA17A00D209A7 /* main.m */,
+				EE900A94199EA17A00D209A7 /* ChildOrientationDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE900AAE199EA17A00D209A7 /* ChildOrientationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE900AB4199EA17A00D209A7 /* ChildOrientationDemoTests.m */,
+				EE900AAF199EA17A00D209A7 /* Supporting Files */,
+			);
+			path = ChildOrientationDemoTests;
+			sourceTree = "<group>";
+		};
+		EE900AAF199EA17A00D209A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE900AB0199EA17A00D209A7 /* ChildOrientationDemoTests-Info.plist */,
+				EE900AB1199EA17A00D209A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE900A82199EA17A00D209A7 /* ChildOrientationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE900AB8199EA17A00D209A7 /* Build configuration list for PBXNativeTarget "ChildOrientationDemo" */;
+			buildPhases = (
+				EE900A7F199EA17A00D209A7 /* Sources */,
+				EE900A80199EA17A00D209A7 /* Frameworks */,
+				EE900A81199EA17A00D209A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChildOrientationDemo;
+			productName = ChildOrientationDemo;
+			productReference = EE900A83199EA17A00D209A7 /* ChildOrientationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE900AA6199EA17A00D209A7 /* ChildOrientationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE900ABB199EA17A00D209A7 /* Build configuration list for PBXNativeTarget "ChildOrientationDemoTests" */;
+			buildPhases = (
+				EE900AA3199EA17A00D209A7 /* Sources */,
+				EE900AA4199EA17A00D209A7 /* Frameworks */,
+				EE900AA5199EA17A00D209A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE900AAD199EA17A00D209A7 /* PBXTargetDependency */,
+			);
+			name = ChildOrientationDemoTests;
+			productName = ChildOrientationDemoTests;
+			productReference = EE900AA7199EA17A00D209A7 /* ChildOrientationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE900A7B199EA17A00D209A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tad Wheeler";
+				TargetAttributes = {
+					EE900AA6199EA17A00D209A7 = {
+						TestTargetID = EE900A82199EA17A00D209A7;
+					};
+				};
+			};
+			buildConfigurationList = EE900A7E199EA17A00D209A7 /* Build configuration list for PBXProject "ChildOrientationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE900A7A199EA17A00D209A7;
+			productRefGroup = EE900A84199EA17A00D209A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE900A82199EA17A00D209A7 /* ChildOrientationDemo */,
+				EE900AA6199EA17A00D209A7 /* ChildOrientationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE900A81199EA17A00D209A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE900A9D199EA17A00D209A7 /* Main_iPad.storyboard in Resources */,
+				1461FD34199FD6430050644D /* leak.jpg in Resources */,
+				EE900AA2199EA17A00D209A7 /* Images.xcassets in Resources */,
+				EE900A9A199EA17A00D209A7 /* Main_iPhone.storyboard in Resources */,
+				EE900A91199EA17A00D209A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE900AA5199EA17A00D209A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE900AB3199EA17A00D209A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE900A7F199EA17A00D209A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE900AC0199EA1D800D209A7 /* TAPortraitOnlyViewController.m in Sources */,
+				EE900AA0199EA17A00D209A7 /* TAViewController.m in Sources */,
+				EE900A93199EA17A00D209A7 /* main.m in Sources */,
+				EE900A97199EA17A00D209A7 /* TAAppDelegate.m in Sources */,
+				EE900AC3199EA7E700D209A7 /* TALandscapeOnlyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE900AA3199EA17A00D209A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE900AB5199EA17A00D209A7 /* ChildOrientationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE900AAD199EA17A00D209A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE900A82199EA17A00D209A7 /* ChildOrientationDemo */;
+			targetProxy = EE900AAC199EA17A00D209A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE900A8F199EA17A00D209A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE900A90199EA17A00D209A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE900A98199EA17A00D209A7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE900A99199EA17A00D209A7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EE900A9B199EA17A00D209A7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE900A9C199EA17A00D209A7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EE900AB1199EA17A00D209A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE900AB2199EA17A00D209A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE900AB6199EA17A00D209A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE900AB7199EA17A00D209A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE900AB9199EA17A00D209A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChildOrientationDemo/ChildOrientationDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChildOrientationDemo/ChildOrientationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE900ABA199EA17A00D209A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChildOrientationDemo/ChildOrientationDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChildOrientationDemo/ChildOrientationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE900ABC199EA17A00D209A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChildOrientationDemo.app/ChildOrientationDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChildOrientationDemo/ChildOrientationDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChildOrientationDemoTests/ChildOrientationDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE900ABD199EA17A00D209A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChildOrientationDemo.app/ChildOrientationDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChildOrientationDemo/ChildOrientationDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChildOrientationDemoTests/ChildOrientationDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE900A7E199EA17A00D209A7 /* Build configuration list for PBXProject "ChildOrientationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE900AB6199EA17A00D209A7 /* Debug */,
+				EE900AB7199EA17A00D209A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE900AB8199EA17A00D209A7 /* Build configuration list for PBXNativeTarget "ChildOrientationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE900AB9199EA17A00D209A7 /* Debug */,
+				EE900ABA199EA17A00D209A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE900ABB199EA17A00D209A7 /* Build configuration list for PBXNativeTarget "ChildOrientationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE900ABC199EA17A00D209A7 /* Debug */,
+				EE900ABD199EA17A00D209A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE900A7B199EA17A00D209A7 /* Project object */;
+}
